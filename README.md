@@ -83,3 +83,23 @@ https://dl.dropboxusercontent.com/scl/fi/pguvqzl491zaudobageip/test_video.mp4?rl
 - The app downloads and processes the video before providing results.
 - Processing time depends on the video duration and your internet speed.
 - Please be patient while the model works in the background.
+
+## 🚀 Run the App
+
+You can try the Accent Classifier in two ways:
+
+### 1️⃣ Clone and Run Locally
+
+```bash
+git clone https://github.com/Zeeshan-Faiz/AccentClassifier.git
+cd AccentClassifier
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+This is the recommended method for best performance, especially on longer videos.
+
+### 2️⃣ Try Online (Hugging Face Spaces)
+You can also test the app online using our Hugging Face Spaces deployment:
+👉 [Accent Classifier on Hugging Face Spaces](https://huggingface.co/spaces/MrFaiz07/accent-classifier)
+
+> ⚠️ **Note:** Hugging Face Spaces has limited memory and compute power, which may affect performance or load times for longer videos.
